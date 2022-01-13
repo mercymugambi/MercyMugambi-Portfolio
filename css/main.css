@@ -1,0 +1,35 @@
+/*.................................
+Name : main.css
+version : 1.o
+...................................
+
+Table of contents
+    01. Navbar
+    02. Slider
+    03. About us
+
+*/
+
+body{
+    font-family: ' muli ' sans-serif;
+    height: 500px;
+}
+/*==============================
+    01. Navbar
+================================*/
+.navbar{
+    background: #2b2c2c !important;
+    padding: 25px 0;
+}
+.navbar .nav-item{
+    font-size: 14px;
+    font-weight: 600px;
+    margin: 0 20px;
+}
+.navbar .nav-item .navlink{
+    color: #7d9597;
+}
+
+
+
+
