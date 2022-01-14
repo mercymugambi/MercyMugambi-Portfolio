@@ -7,7 +7,13 @@ Table of contents
     01. Navbar
     02. Slider
     03. About us
-
+    04. Services
+    05. Some facts
+    06. Portfolio
+    07. Testmonials
+    08. Blog
+    09. Contact
+    10. Footer
 */
 
 body{
@@ -15,7 +21,7 @@ body{
     height: 500px;
 }
 /*==============================
-    01. Navbar
+    [01]. Navbar
 ================================*/
 .navbar{
     background: #2b2c2c !important;
@@ -30,6 +36,88 @@ body{
     color: #7d9597;
 }
 
+.navbar .nav-item .navlink:hover{
+    color: #ffffff;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu{
+    margin-top: 25px;
+    background: #212222;
+}
+.navbar .navbar-nav .dropdown span{
+    font-size: 10px;
+    margin-left: 3px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a{
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a:hover{
+    background: #c0a80d;
+}
 
+
+/*==================================
+    [02]. Slider
+===================================*/
+.slider{
+    background: url('../image/bg/slider-bg.png') center center no-repeat;
+    height: calc(100vh - 92px);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.slider .particels{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.animated.headlines .cd-headline span{
+    font-size: 50px;
+    font-family: 'Muli', sans-serif !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #e0a80d;
+}
+
+.slider .left-content .hello{
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.slider .left-content h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;
+    margin: 5px 0 20px 0;
+}
+
+.slider .left-content .btn {
+    border: 2px solid #e0a80d;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 20px;
+    text-decoration: none;
+    z-index: 200;
+}
+
+/* ==========================
+    [03]. About Me
+===========================*/
 
 
