@@ -60,14 +60,16 @@ body{
 /*==================================
     [02]. Slider
 ===================================*/
-.slider{
+.slider {
     background: url('../image/bg/slider-bg.png') center center no-repeat;
     height: calc(100vh - 92px);
+    background-size: cover;
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 90px;
+    
 }
 
 .slider .particels{
@@ -104,6 +106,14 @@ body{
     margin: 5px 0 20px 0;
 }
 
+.slider .left-content .paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 28px;
+    padding-right: 20px;
+}
+
 .slider .left-content .btn {
     border: 2px solid #e0a80d;
     border-radius: 35px;
@@ -115,9 +125,573 @@ body{
     text-decoration: none;
     z-index: 200;
 }
+.slider b{
+    color: #e0a80d;
+}
 
 /* ==========================
-    [03]. About Me
-===========================*/
+   [03]. About Me
+========================== */
+
+.about-me {
+    padding: 130px 0;
+    background: #2d2e2e;
+}
+
+.about-me img {
+    padding-right: 50px;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0a80d;
+}
+
+.about-me p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #bac8d3;
+    line-height: 28px;
+    margin: 20px 0 40px 0;
+}
+
+.about-me .btn-1 {
+    background: #e0a80d;
+    border-radius: 35px;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.about-me .btn-2 {
+    border: 2px solid #e0a80d;
+    border-radius: 35px;
+    padding: 10px 50px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+/* ==========================
+   [04]. Services
+========================== */
+.services {
+    padding-bottom: 90px;
+    background: #2d2e2e;
+}
+
+.services h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0a80d;
+    margin-bottom: 60px;
+}
+
+.services .box {
+    padding: 40px;
+    margin-bottom: 30px;
+    background: #212222;
+}
+.services .box span {
+    font-size: 30px;
+    color: #e0a80d;
+}
+
+.services .box h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.services .box p {
+    font-size: 14px;
+    color: #bac8d3;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* ==========================
+   [05]. Some Facts
+========================== */
+
+.some-facts {
+    padding: 130px 0;
+    color: #ffffff;
+    background: url('../image/bg/some-facts-bg.png') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.some-facts .items span {
+    font-size: 30px;
+    color: #e0a80d;
+    margin: 0;
+    padding: 0;
+}
+
+.some-facts .items h3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff !important;
+    margin: 0;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.some-facts .items h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+
+
+/* ==========================
+   [06]. Portfolio
+========================== */
+
+.portfolio {
+    padding: 130px 0 95px 0;
+    background: #2d2e2e;
+}
+
+.portfolio h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0a80d;
+    margin-bottom: 60px;
+}
+
+.portfolio .button-group {
+    margin-bottom: 30px;
+}
+
+.portfolio .button-group button {
+    border: 0;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    color: #bac8d3;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 35px;
+    transition: all .2s ease-in-out;
+}
+
+.portfolio .button-group button:hover {
+    color: #ffffff;
+    background: #e0a80d;
+}
+
+.portfolio .button-group button.active {
+    color: #ffffff;
+    background: #e0a80d;
+}
+
+.portfolio .single-portfolio-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.portfolio .single-portfolio-item .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #e0a80d;
+    color: #ffffff;
+    opacity: 0;
+    transition: all .7s ease-in-out;
+}
+
+.portfolio .single-portfolio-item .overlay .content {
+    font-size: 20px;
+    position: absolute;
+    text-decoration: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    
+}
+
+.portfolio .single-portfolio-item .overlay .content h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.portfolio .single-portfolio-item .overlay .content p {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.portfolio .single-portfolio-item .overlay .content a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.portfolio .single-portfolio-item:hover .overlay {
+    opacity: .95;
+}
+
+
+/* ==========================
+   [07]. Testimonials
+========================== */
+.testimonials {
+    background: url('../image/bg/testimonials-bg.png') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 130px 0 170px 0;
+}
+
+.testimonials h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0a80d;
+}
+
+/* Image */
+.testimonials .carousel-inner .carousel-item .colon {
+    margin: 30px 0 20px 0;
+}
+
+.testimonials .carousel-inner .carousel-item .team {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #e0a80d;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 20px 0 15px;
+}
+
+.testimonials .carousel-inner .carousel-item h3 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.testimonials .carousel-inner .carousel-item h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #e0a80d;
+    margin-bottom: 20px;
+}
+
+.testimonials .carousel-inner .carousel-item p {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.testimonials .carousel-indicators {
+    bottom: -40px;
+}
+
+.testimonials .carousel-indicators li {
+    background-color: #b8b7b7;
+    border-radius: 30px;
+    height: 4px;
+    width: 40px;
+}
+
+
+.testimonials .carousel-indicators .active {
+    background-color: gray;
+}
+
+.testimonials .icon {
+  height: 40px;
+  width: 40px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  font-size: 30px;
+  
+  color: #ffffff
+}
+
+
+/* ==========================
+   [08]. Blog
+========================== */
+
+.blog {
+    padding: 130px 0;
+    background: #2d2e2e;
+}
+
+.blog h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0a80d;
+    margin-bottom: 60px;
+}
+
+.blog .box {
+    border-radius: 10px;
+    background: #212222;
+}
+
+.blog .box .image {
+    position: relative;
+}
+
+.blog .box .image img {
+    width: 100%;
+}
+
+.blog .box .image a {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 5px 20px;
+    color: #ffffff;
+    background: #e0a80d;
+    border-radius: 35px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.blog .box .text {
+    padding: 25px;
+}
+
+.blog .box h3 a {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #eee;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.blog .box h4 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #e0a80d;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.blog .box p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbfc0;
+    line-height: 26px;
+}
+
+
+/* ==========================
+   [09]. Contact
+========================== */
+
+.contact {
+    padding: 0 0 130px 0;
+    background: #2d2e2e;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0a80d;
+    margin-bottom: 60px;
+}
+
+.contact .form-control {
+    padding: 25px;
+    font-size: 13px;
+    margin-bottom: 10px;
+    background: #fcf2f2;
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact button.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: #e0a80d;
+    color: #ffffff;
+}
+.contact .info {
+    padding-left: 40px;
+}
+
+.contact .info span {
+    font-size: 20px;
+    color: #e0a80d;
+}
+
+.contact .info p {
+    font-size: 14px;
+    margin: 10px 0 20px 0;
+    color: #eee;
+}
+
+
+/* ==========================
+   [10]. Footer
+========================== */
+.footer {
+    padding: 40px 0;
+    background: #242527;
+}
+
+ .footer .social-icons span{
+    color: #e0a80d;
+    padding: 0 5px;
+}
+
+.footer p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+/* ==========================
+   [11]. Media
+========================== */
+/*Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.99px) {
+    /* Slider*/
+    .slider {
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+    }
+
+    .slider img {
+        display: none;
+    }
+
+    .navbar {
+        padding: 20px;
+    }
+
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+
+    /* About Me */
+    .about-me {
+        padding: 130px 25px;
+    }
+    .about-me img {
+        margin-bottom: 30px;
+    }
+    .about-me .btn-1 {
+        margin-bottom: 30px;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .contact .info {
+        padding: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+     /* Slider*/
+     .slider {
+        height: calc(100vh - 80px);
+        margin-top: 80px;
+     }
+
+    .slider .left-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+
+    /* About Me */
+    .about-me img {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .contact .info {
+        padding: 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .animated-headlines .cd-headline span {
+        font-size: 30px;
+    }
+
+    .slider .left-content {
+        padding: 140px 0;
+    }
+
+    .some-facts .items h4 {
+        margin-bottom: 30px;
+    }
+
+    .blog .box {
+        margin-bottom: 30px;
+    }
+
+    .blog {
+        padding-bottom: 90px;
+    }
+
+    .about-me img {
+        display: none;
+    }
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
 
 

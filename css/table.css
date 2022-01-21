@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+
+}
+table,th,td{
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px dashed pink;
+    border-collapse: collapse;
+}
