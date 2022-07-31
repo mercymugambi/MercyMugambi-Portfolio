@@ -1,61 +1,642 @@
 <!DOCTYPE html>
-<HTml>
-<html lang="en">
+<html>
+    <html lang="en">
     <head>
-        <title>Mercy</title>
+        <!--this my title-->
+        <title> Mercy Mugambi</title>
 
-        <link rel="stylesheet" href="css/table.css">
-        <link rel="stylesheet" href="css/address.css"
+        <!--meta-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <meta name="author" content="Mercy Mugambi"/>
 
+        <!-- description -->
+        <meta name="description" content="I am a great developer for both web and android devices"/>
+
+        <!-- keywords -->
+        <meta name="keywords" content="webdev, programmer, coder, freelancer, startup"/>
         
-        <h1 style="background-color: powderblue;">This is a heading</h1>
-        <p style="background-color: tomato;">This is a paragraph</p>
-        <body>
-            <b>This is life</b><br>
-            <i>This is life</i><br>
-            <em>This is life</em><br>
-            <mark>This is life</mark><br>
-            <small>This is life</small><br>
-            <u>This is life</u><br>
-            <del>This is life</del><br>
+        <!-- Animation -->
+        <link rel="stylesheet" href="css/plugins/animate.css"/>
 
-            <table>
-                <tr> 
-                    <th> Company</th>
-                    <th> Contact</th>
-                    <th> Country</th>
-                </tr>
-                <tr>
-                    <td> Alfreds Futterkiste</td>
-                    <td> Maria anders</td>
-                    <td> Germany</td>
-                </tr>
-                <tr>
-                    <td> centro Comercial Moctezuma</td>
-                    <td> Fransisco Chang</td>
-                    <td> Mexico</td>
-                </tr>
-            </table>
-            
-            <script>
-                document.getElementById("demo").innerHTML=5+6;
-            </script>
+        <!-- animated Headlines -->
+        <Link rel="stylesheet" href="css/plugins/animated-headlines.css"/>
 
-            <address>
-                Written by Jon Doe,<br>
-                Visit us at:<br>
-                Example.com<br>
-                Box 564, Disneyland,<br>
-                USA.<br>
-            </address>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
 
-            
+        <!--CSS link-->
+        <link rel="stylesheet" href="css/main.css">
+        <!-- scss styles -->
+		<link rel="stylesheet" href="css/style1.css" />
 
+        <!-- font awesome icon -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet">
 
+        <!-- Google font -->
+        <link rel="https://fonts.googleapis.com/css?family=Muli:200,300,400,600,700,800,900"
+        rel="stylesheet">
 
-        </body>
+        <!-- Devicon icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+        <!-- Animated Headlines -->
+        <link rel="stylesheet" href="css/plugins/animated-headlines.css">
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="css/plugins/magnific-popup.css">
     </head>
+        <body>
+            <!-- Start bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#"> <img src="image/logo.png" alt=""></a>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav"> 
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#slider">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#slider">Testmonials</a>
+                            </li>
 
-    
+                            <!-- Dropdown Menu -->
+                            <li class="nav-item dropdown">
+                            <a 
 
-</HTml>
+                                class="nav-link"
+                                href ="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false">
+                            
+                                Blog
+                                <span class="fa fa-angle-down"></span>                              
+                                
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="../blog/class1.html">Blog List</a>
+                                <a class="dropdown-item" href="../single-post/class1.html">Single Post</a>
+                            </div>
+                            <!--Drop Down item-->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"> Contact </a>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+            <!--====== end navbar =====-->
+
+            <!--====== Start Slider =====-->
+            <section class="slider d-flex justify-content-center" id='slider'>
+                <div class="container text-center">
+                    <div class="row all-content">
+                        <div class="col-12">
+                            <div class="left-content">
+                                <p class="hello">
+                                  HELLO I'M </p>
+                                <!-- Animated Text-->
+                                <div class="animated-headlines">
+                                    <h1 class="cd-headline clip is-full-width">
+                                        <span class="cd-words-wrapper">
+                                            <b class="is-visible"> Mercy Mugambi</b>
+                                            <b>Web Developer,</b>
+                                            <b>Frontend Developer,</b> 
+                                            <b>UI/UX Designer</b>
+                                            <b>Graphics Designer</b>
+                                        </span>
+                                    </h1>
+                                </div>
+                                <p class="paragraph">
+                                 Turning ideas into real life products by creating interactive applications and experiences <br>on the web is my passion.</br>
+                                </p>
+                                <a href="documents/mercy_mugambi.pdf" class="btn">Download</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="particles-js" class="particels"> </div>
+            </section>
+            <!--==== End Slider ====-->
+
+            <!-- Start About Me -->
+            <section class="about-me" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="image/mercypic/aboutPic.jpg" width="480px" alt="" class="img-fluid">
+
+                        </div>
+                        <div class="col-md-7">
+                            <h2>About Me</h2>
+                            <p style="text-align: justify;">
+                                Hallo. 
+                                I’m Mercy Mugambi a Frontend Web Developer based in Nairobi, Kenya with over a year work experience writing clean code, and pushing my skills to the limit. Coding has become a perfect union for my creativity and precision skills. I love combining the worlds of logic and creative designs to make eye-catching, accessible, and user-friendly websites.
+                            </p>
+                            <P style="text-align: justify;">My experience is backed up by immerse Web development boot camp training offered by eMobili’s  Technology Institute and being a Bachelors graduate of business and Information Technology at St Paul’s University.
+                            </P> 
+                            <P style="text-align: justify;">I'm excited to make the leap and continue refining my skills alongside other amazing programmers in the right organization. Feel free to look at my CV and portfolio below.
+                            </P> 
+                            <a href="documents/mercy_mugambi.pdf" class="btn-1">Download CV</a>
+                            
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+            <!-- End about Me -->
+
+             <!-- Start of Some Facts -->
+             <section class="section skills lightTheme" id="skills">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li class="skill1">
+                        <div class="skill1">
+                            <i class="devicon-html5-plain"></i>
+                        </div>
+                        <h3 class="skill1">HTML</h3>
+                    </li>
+                    <li class="skill2">
+                        <div class="skill2">
+                            <i class="devicon-css3-plain"></i>
+                        </div>
+                        <h3 class="skill2">CSS</h3>
+                    </li>
+                    <li class="skill3">
+                        <div class="skill3">
+                            <i class="fab fa-sass" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="skill3">SCSS</h3>
+                    </li>
+                    <li class="skill4">
+                        <div class="skill4">
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                        <h3 class="skill4">Javascript</h3>
+                    </li>
+                    <li class="skill5">
+                        <div class="skill5">
+                            <i class="devicon-jquery-plain"></i>
+                        </div>
+                        <h3 class="skill5">jQuery</h3>
+                    </li>
+                    <li class="skill1">
+                        <div class="skill1">
+                            <i class="devicon-react-original"></i>
+                        </div>
+                        <h3 class="skill1">React</h3>
+                    </li>
+                    <li class="skill2">
+                        <div class="skill2">
+                            <img class="firebaseSVG" src="./assets/firebase.svg" alt="firebase">
+                        </div>
+                        <h3 class="skill2">Firebase</h3>
+                    </li>
+                    <li class="skill3">
+                        <div class="skill3">
+                            <i class="devicon-git-plain"></i>
+                        </div>
+                        <h3 class="skill3">Git</h3>
+                    </li>
+                    <li class="skill4">
+                        <div class="skill4">
+                            <img class="responsiveSVG" src="./assets/responsiveDesign.svg" alt="responsive design">
+                        </div>
+                        <h3 class="skill4">Responsive</h3>
+                    </li>
+                    <li class="skill5">
+                        <div class="skill5">
+                            <i class="fas fa-universal-access" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="skill5">Accessible</h3>
+                    </li>
+
+                    <!-- <li >
+                        <div class="skill2">
+                            <i class="devicon-github-plain"></i>
+                        </div>
+                        <h3>Github</h3>
+                    </li>
+                    <li>
+                        <div class="skill5">
+                            <img src="./assets/api.svg" alt="RESTful API">
+                        </div>
+                        <h3>REST APIs</h3>
+                    </li> -->
+                </ul>
+            </section>
+            
+            <!--End of some facts-->
+
+            <!-- Start Services -->
+            <Section class="services" id="services">
+                <h2 class="text-center">Services</h2>
+                <div class="container">
+                    <div class="row">
+                        <!--Box 1-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="box">
+                                <span class="fa fa-cog"></span>
+                                <h3>Creative Design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet, et asperiores quod aspernatur sunt dolores beatae corporis similique ex quos voluptate id consectetur itaque labore fugiat deleniti aliquam at.</p>
+                            </div>
+                        </div>
+                        <!--Box 2-->
+                         <div class="col-md-6 col-lg-4">
+                            <div class="box">
+                                <span class="fa fa-cog"></span>
+                                <h3>Clean Code</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet, et asperiores quod aspernatur sunt dolores beatae corporis similique ex quos voluptate id consectetur itaque labore fugiat deleniti aliquam at.</p>
+                            </div>
+                        </div>
+                        <!--Box 3-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="box">
+                                <span class="fa fa-cog"></span>
+                                <h3>Responsive Design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet, et asperiores quod aspernatur sunt dolores beatae corporis similique ex quos voluptate id consectetur itaque labore fugiat deleniti aliquam at.</p>
+                            </div>
+                        </div>
+                        <!--Box 4-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="box">
+                                <span class="fa fa-cog"></span>
+                                <h3>bootstrap</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet, et asperiores quod aspernatur sunt dolores beatae corporis similique ex quos voluptate id consectetur itaque labore fugiat deleniti aliquam at.</p>
+                            </div>
+                        </div>
+                        <!--Box 5-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="box">
+                                <span class="fa fa-cog"></span>
+                                <h3>Font Icons</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Quibusdam amet, et asperiores quod aspernatur sunt dolores beatae corporis similique ex quos voluptate id consectetur itaque labore fugiat deleniti aliquam at.</p>
+                            </div>
+                        </div>
+                        <!--Box 6-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="box">
+                                <span class="fa fa-cog"></span>
+                                <h3>Awesome Support</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet, et asperiores quod aspernatur sunt dolores beatae corporis similique ex quos voluptate id consectetur itaque labore fugiat deleniti aliquam at.</p>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+            </Section>
+            <!-- End of Services -->
+
+           
+
+            <!-- Start Portfolio -->
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <h2 class="text-center">Portfolio</h2>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="button-group filter-button-group text-center">
+                                <button data-filter="+" class="active">All</button>
+                                <button data-filter=".marketing">Marketing</button>
+                                <button data-filter=".design">Design</button>
+                                <button data-target=".development">Development</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row grid">
+                        <!--Image 1-->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+                            <div class="single-portfolio-item">
+                                <img src="https://via.placeholder.com/400x480" alt="" class="img-fluid">
+                                <div class="overlay text-center">
+                                    <div class="content">
+                                        <h3>Brex logo</h3>
+                                        <p> Brand</p>
+                                        <a href="https://via.placeholder.com/400x480" class="image-link">
+                                            <span class="fa fa-eye"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Image 2-->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+                            <div class="single-portfolio-item">
+                                <img src="https://via.placeholder.com/400x480" alt="" class="img-fluid">
+                                <div class="overlay text-center">
+                                    <div class="content">
+                                        <h3>Brex logo</h3>
+                                        <p> Brand</p>
+                                        <a href="https://via.placeholder.com/400x480" class="image-link">
+                                            <span class="fa fa-eye"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Image 3-->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+                            <div class="single-portfolio-item">
+                                <img src="https://via.placeholder.com/400x480" alt="" class="img-fluid">
+                                <div class="overlay text-center">
+                                    <div class="content">
+                                        <h3>Brex logo</h3>
+                                        <p> Brand</p>
+                                        <a href="https://via.placeholder.com/400x480" class="image-link">
+                                            <span class="fa fa-eye"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Image 4-->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+                            <div class="single-portfolio-item">
+                                <img src="https://via.placeholder.com/400x480" alt="" class="img-fluid">
+                                <div class="overlay text-center">
+                                    <div class="content">
+                                        <h3>Brex logo</h3>
+                                        <p> Brand</p>
+                                        <a href="https://via.placeholder.com/400x480" class="image-link">
+                                            <span class="fa fa-eye"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Image 5-->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+                            <div class="single-portfolio-item">
+                                <img src="https://via.placeholder.com/400x480" alt="" class="img-fluid">
+                                <div class="overlay text-center"> 
+                                    <div class="content"> 
+                                        <h3>Brex logo</h3> 
+                                        <p> Brand</p>
+                                        <a href="https://via.placeholder.com/400x480" class="image-link">
+                                            <span class="fa fa-eye"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Image 6-->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+                            <div class="single-portfolio-item">
+                                <img src="https://via.placeholder.com/400x480" alt="" class="img-fluid">
+                                <div class="overlay text-center">
+                                    <div class="content">
+                                        <h3>Brex logo</h3>
+                                        <p> Brand</p>
+                                        <a href="https://via.placeholder.com/400x480" class="image-link">
+                                            <span class="fa fa-eye"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            <!-- End of Portfolio -->
+
+            <!-- Start of Testmonials -->
+            <section class="testimonials" id="testimonials">
+                <div class="container text-center">
+                    <h2>Testimonials</h2>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators-->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0"class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <!-- Item-1 -->
+                                    <div class="carousel-item active text-center">
+                                        <img src="image/bg/testimonials.png" alt="" class="colon">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                            porttitordapibus dictum.<br>
+                                            Fusce faucibus ligula scelerisque, eleifend turpis in</p> 
+                                            <img src="image/team/team1.jpg" alt="" class="centerblock team">
+                                            <h3>Alamin Musa</h3>
+                                            <h4>Front End Developer</h4>
+                                    </div>
+                                    <!-- Item-2 -->
+                                    <div class="carousel-item">
+                                        <img src="image/bg/testimonials.png" alt="" class="colon">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                            porttitordapibus dictum.<br>
+                                            Fusce faucibus ligula scelerisque, eleifend turpis in</p> 
+                                            <img src="image/team/team2.png" alt="" class="centerblock team">
+                                            <h3>Alamin Musa</h3>
+                                            <h4>web Developer</h4>
+                                    </div>
+                                    <!-- Item-3 -->
+                                    <div class="carousel-item">
+                                        <img src="image/bg/testimonials.png" alt="" class="colon">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                                            porttitordapibus dictum.<br>
+                                            Fusce faucibus ligula scelerisque, eleifend turpis in</p> 
+                                            <img src="image/team/team3.jpeg" alt="" class="centerblock team">
+                                            <h3>Alamin Musa</h3>
+                                            <h4>Front End Developer</h4>
+                                    </div>
+                                </div>
+                                <a
+                                    class="carousel-control-prev"
+                                    href="#carouselExampleIndicators"
+                                    role="button"
+                                    data-slide="prev">
+                                    <span class="fa fa-angle-left icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a
+                                    class="carousel-control-prev"
+                                    href="#carouselExampleIndicators"
+                                    role="button"
+                                    data-slide="prev">
+                                    <span class="fa fa-angle-left icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a
+                                    class="carousel-control-next"
+                                    href="#carouselExampleIndicators"
+                                    role="button"
+                                    data-slide="next">
+                                    <span class="fa fa-angle-right icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                                
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section> 
+            <!-- End Of Testimonial -->
+            <!-- ===== Start Blog ===== -->
+            <section class="blog" id="blog">
+                <div class="container">
+                    <h2 class="text-center">Our Blog</h2>
+                    <div class="row">
+                        <!-- Post-1 -->
+                        <div class="co-md-6 col-lg-4">
+                            
+                            <div class="box">
+                                <div class="image">
+                                    <img src="https://via.placeholder.com/400x250" alt="">
+                                    <a href="" class="cate">Web</a>
+                                </div>
+                                <div class="text">
+                                    <h3><a href="">Master These Awesome</a></h3>
+                                    <h4>By Dorian Gray, Jun 27, 2018</h4>
+                                    <p>Lorem Ipsum has been standard. Lorem Ipsum is simply text of the
+                                    printing and typesetting industry. Lorem Ipsum has been</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Post-1 -->
+                        <div class="co-md-6 col-lg-4">
+                            
+                            <div class="box">
+                                <div class="image">
+                                    <img src="https://via.placeholder.com/400x250" alt="">
+                                    <a href="" class="cate">Web</a>
+                                </div>
+                                <div class="text">
+                                    <h3><a href="">Master These Awesome</a></h3>
+                                    <h4>By Dorian Gray, Jun 27, 2018</h4>
+                                    <p>Lorem Ipsum has been standard. Lorem Ipsum is simply text of the
+                                    printing and typesetting industry. Lorem Ipsum has been</p>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- Post-2 -->
+                    <!-- Post-1 -->
+                    <div class="co-md-6 col-lg-4">
+                            
+                        <div class="box">
+                            <div class="image">
+                                <img src="https://via.placeholder.com/400x250" alt="">
+                                <a href="" class="cate">Web</a>
+                            </div>
+                            <div class="text">
+                                <h3><a href="">Master These Awesome</a></h3>
+                                <h4>By Dorian Gray, Jun 27, 2018</h4>
+                                <p>Lorem Ipsum has been standard. Lorem Ipsum is simply text of the
+                                printing and typesetting industry. Lorem Ipsum has been</p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!-- ===== End Blog ===== -->
+        <!-- ===== Start Contact ===== -->
+
+        <section class="contact" id="contact">
+            <h2 class="text-center">Keep In Touch</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div class="col-sm-12">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="5" id="comment"
+                                placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn btn-block" type="submit">Send Now!</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="info">
+                            <span class="fa fa-map-marker"></span>
+                            <p>private bag 00217
+                            <br>
+                            Limuru</p>
+                            <span class="fa fa-mobile"></span>
+                            <p>+254(0)723460025
+                            <br>
+                            +254(0)738027996</p>
+                            <span class="fa fa-at"></span>
+                            <p>mercymugambi2016@gmail.com <br> mugambi_mercy@yahoo.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== End Contact ===== -->
+        <!-- ===== Start Footer ===== -->
+        <footer class="footer text-center">
+            <div class="social-icons">
+                <span class="fa fa-facebook" aria-hidden="true"></span>
+                <span class="fa fa-twitter" aria-hidden="true"></span>
+                <span class="fa fa-dribbble" aria-hidden="true"></span>
+                <span class="fa fa-skype" aria-hidden="true"></span>
+            </div>
+            <p>All Right Rescerved 2022</p>
+        </footer>
+        <!-- ===== End Footer ===== -->
+        <!-- ==== javascript libraries ==== -->
+        <!-- jQuery-->
+        <script src="js/plugins/jquery-3.3.1.min.js"></script>
+        <!-- Bootstrap 4.1.3 -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plugins/popper.min.js"></script>
+        <!-- Animated Headlines -->
+        <script src="js/plugins/animated-headlines.js"></script>
+        <!-- Nav jQuery-->
+        <script src="js/plugins/nav.jquery.js"></script>
+        <!-- Nav jQuery-->
+        <script src="js/plugins/jquery.stellar.js"></script>
+        <!-- Isotope -->
+        <script src="js/plugins/isotope.pkgd.min.js"></script>
+        <!-- Image Loaded -->
+        <script src="js/plugins/imagesloaded.pkgd.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="js/plugins/magnific-popup.min.js"></script>
+        <!-- Smooth-Scroll -->
+        <script src="js/smooth-scroll.js"></script>
+        <!-- Counter Up -->
+        <script src="js/plugins/jquery.waypoints.min.js"></script>
+        <script src="js/plugins/jquery.counterup.min.js"></script>
+        <!-- Particles Js -->
+        <script src="js/plugins/particles.min.js"></script>
+        <script src="js/plugins/app.js"></script>
+        <!-- Animated Headlines -->
+        <script src="js/plugins/animated-headlines..j"></script>
+        <script src="js/main.js"></script>
+
+    </body>  
+</html>

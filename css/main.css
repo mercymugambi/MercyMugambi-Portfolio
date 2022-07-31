@@ -228,8 +228,8 @@ body{
    [05]. Some Facts
 ========================== */
 
-.some-facts {
-    padding: 130px 0;
+#skills {
+    padding: 50px 0;
     color: #ffffff;
     background: url('../image/bg/some-facts-bg.png') center center no-repeat;
     background-size: cover;
@@ -237,8 +237,8 @@ body{
 }
 
 .some-facts .items span {
-    font-size: 30px;
-    color: #e0a80d;
+    font-size: 10rem;
+    /*color: #e0a80d;*/
     margin: 0;
     padding: 0;
 }
@@ -694,4 +694,105 @@ body{
 @media (max-width: 1199.98px) {
 }
 
+/*skills*/
+.skills ul {
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+    height: 80%;
+  }
+  
+  .skills.lightTheme li {
+    -webkit-box-shadow: 0 0 10px 2px #ccdce3;
+            box-shadow: 0 0 10px 2px #ccdce3;
+  }
+  
+  .skills.darkTheme li img {
+    -webkit-filter: drop-shadow(1px 1px 1px #525252);
+            filter: drop-shadow(1px 1px 1px #525252);
+  }
+  
+  .skills.darkTheme li i {
+    color: #2e2e2e;
+    text-shadow: 1px 1px 1px #525252;
+  }
+  
+  .skills.darkTheme li h3 {
+    color: #2e2e2e;
+    text-shadow: 1px 1px 1px #525252;
+  }
+  .skills h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #e0a80d;
+    margin-bottom: 60px;
+  }
+  
+  .skills li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: calc(20% - 10px);
+    margin: 5px;
+    padding: 20px 0px;
+    -webkit-transition: background 0.5s, -webkit-box-shadow 0.5s;
+    transition: background 0.5s, -webkit-box-shadow 0.5s;
+    transition: background 0.5s, box-shadow 0.5s;
+    transition: background 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
+  }
+  
+  .skills li div {
+    width: 85%;
+    padding: 10px 0;
+    margin: 7.5%;
+  }
+  
+  .skills li i {
+    font-size: 6rem;
+    background: transparent;
+    color: #fafafa;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  .skills li img {
+    height: 60px;
+    width: auto;
+    margin: 0 auto;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+            filter: drop-shadow(1px 1px 1px black);
+  }
+  
+  .skills h3 {
+    font-size: 1.7rem;
+    background: transparent;
+    text-shadow: 1px 1px 1px black;
+    color: #fafafa;
+  }
+
+  
 
