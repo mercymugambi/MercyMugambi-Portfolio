@@ -715,6 +715,7 @@ body{
     text-align: center;
     height: 80%;
   }
+
   
   .skills.lightTheme li {
     -webkit-box-shadow: 0 0 10px 2px #ccdce3;
@@ -765,6 +766,7 @@ body{
     transition: background 0.5s, box-shadow 0.5s;
     transition: background 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
   }
+  
   
   .skills li div {
     width: 85%;
