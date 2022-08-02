@@ -53,8 +53,11 @@ body{
 .navbar .navbar-nav .dropdown .dropdown-menu a:hover{
     background: #c0a80d;
 }
-
-
+#blink {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: green;
+}
 /*==================================
     [02]. Slider
 ===================================*/
