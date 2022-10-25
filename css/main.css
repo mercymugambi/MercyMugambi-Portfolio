@@ -56,8 +56,11 @@ body{
 #blink {
     font-size: 20px;
     font-family: sans-serif;
-    color: green;
+    color: #e0a80d;
 }
+#blink :hover{
+    color: #c0a80d;
+    }
 /*==================================
     [02]. Slider
 ===================================*/
