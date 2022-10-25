@@ -62,7 +62,7 @@ body{
     [02]. Slider
 ===================================*/
 .slider {
-    background: url('../image/bg/slider-bg.png') center center no-repeat;
+    background: url('../image/bg/slider-bg.jpg') center center no-repeat;
     height: calc(100vh - 92px);
     background-size: cover;
     background-attachment: fixed;
@@ -260,8 +260,7 @@ body{
 
   
   .skills.lightTheme li {
-    -webkit-box-shadow: 0 0 10px 2px #ccdce3;
-            box-shadow: 0 0 10px 2px #ccdce3;
+    border-radius: 25px;
   }
   
   .skills.darkTheme li img {
